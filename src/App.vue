@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/todo">Todo</router-link>
+      <a @click="ajaxTest">ajax-Test</a>
     </nav>
     <div class="container">
       <router-view />
@@ -13,9 +14,16 @@
 
 <script>
 
+import {getTest} from "@/utils/axios";
+
 export default {
   name: 'App',
   components: {
+  },
+  methods: {
+    ajaxTest: async () => {
+      console.log(await getTest());
+    }
   }
 }
 </script>
