@@ -41,7 +41,6 @@ body, html{
   text-align: center;
   color: #2c3e50;
   margin:0 auto;
-  display: flex;
   width: 100%;
   max-width: 500px;
   background-color: #FFFFFF;
