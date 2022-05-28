@@ -24,6 +24,7 @@ export default {
 body, html{
   margin: 0;
   padding: 0;
+  background:#F5F5F5;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -35,7 +36,7 @@ body, html{
   display: flex;
   width: 100%;
   max-width: 500px;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   min-height: 100vh;
   padding: 0;
 
@@ -66,10 +67,6 @@ body, html{
     }
   }
   .container {
-
-  }
-  a {
-    margin-right: 10px;
   }
 }
 </style>
